@@ -66,7 +66,7 @@ GROUP BY os;
 
 The data shows a clear preference for Windows 11 OS, which accounts for the majority of laptop sales with 45 units sold, compared to just 4 units for Windows 10 OS. This suggests that most customers are opting for newer systems, possibly due to better performance, features, or future support. The shift highlights a strong market trend toward adopting the latest Windows version in newly sold laptops.
 
-![Sales distribution between Windows 10 and Windows 11](assests\0s_sales.png)
+![Sales distribution between Windows 10 and Windows 11](/assests/0s_sales.png)
 *Sales distribution between Windows 10 and Windows 11 visualized in a column graph using Matplotlib, based on my SQL query results.*
 
 
@@ -95,7 +95,7 @@ LIMIT 10;
 
 The graph highlights the top 10 laptop models by units sold, revealing that most high-end laptops were sold in very low quantities, typically one or two units. The Dell XPS 9720 leads both in units sold and revenue, suggesting strong demand for premium large-screen models. A majority of the best-sellers fall in the 15–17 inch range, indicating a consumer preference for larger displays. Despite their high price points, several gaming and performance laptops like the Asus ROG and MSI Stealth made the list, showing niche but valuable sales activity.
 
-![Highest model sales](assests\total_units_sold.png)
+![Highest model sales](/assests/total_units_sold.png)
 *Laptop model achieved the highest sales volume last month visualized in a bar graph using Matplotlib, based on my SQL query results.*
 
 ### 3. CPU brands or models led in laptop sales
@@ -118,7 +118,7 @@ ORDER BY total_laptops DESC;
 
 This graph summarizes laptop sales by processor type, showing a clear dominance of Intel-based laptops, which account for over 65% of total units sold. Ryzen processors follow with 16 units, reflecting a growing but smaller share of the market. The 'Other' category, with just 1 unit, indicates minimal sales for less common or unspecified processors. This distribution highlights Intel’s continued market leadership in the consumer laptop segment.
 
-![Alt text](assests\processor_type.png)
+![Alt text](/assests/processor_type.png)
 *CPU brands or models led in laptop sales visualized in a pie graph using Matplotlib, based on my SQL query results.*
 
 
@@ -136,7 +136,7 @@ ORDER BY sale_date ASC;
 
 This graph shows daily laptop sales across various dates in May 2025, highlighting fluctuations in purchasing activity. The number of laptops sold per day generally ranges from 1 to 6 units, with the highest sales recorded on May 18 (6 units) and May 13 (5 units). Other dates like May 8, 17, 21, and 24 also saw relatively higher sales, while most days saw 1–2 units sold, indicating a low but steady sales pattern with a few noticeable peaks in mid to late May.
 
-![Alt text](assests\total_sales_by_date.png)
+![Alt text](/assests/total_sales_by_date.png)
 *Distribution of laptop sales across different dates visualized in a column graph using Matplotlib, based on my SQL query results.*
 
 
@@ -155,7 +155,7 @@ GROUP BY TO_CHAR(sale_date, 'Day');
 
 The data shows total laptop sales distributed across each day of the week. Sunday recorded the highest number of sales (12 units), followed by Thursday (10 units) and Tuesday (8 units), suggesting weekends and early weekdays are peak sales periods. Wednesday and Monday saw the lowest activity with just 3 and 4 units sold, respectively. This pattern can help businesses optimize marketing and stock planning for high-demand days.
 
-![Alt text](assests\dow_sales.png)
+![Alt text](/assests/dow_sales.png)
 *Distribution of laptop sales across different day of the week visualized in a pie graph using Matplotlib, based on my SQL query results.*
 
 # What I Learned

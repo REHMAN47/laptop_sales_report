@@ -10,5 +10,5 @@ GROUP BY
        product_name,
        screen_size
 ORDER BY 
-       best_seller DESC
-LIMIT 1;
+       total_units_sold DESC
+LIMIT 10;
